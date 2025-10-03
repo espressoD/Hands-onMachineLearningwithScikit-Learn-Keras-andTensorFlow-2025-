@@ -1,0 +1,2 @@
+# Hands-onMachineLearningwithScikit-Learn-Keras-andTensorFlow-2025-
+To deepen and understanding the practical skills in implementing core Machine Learning concepts through code reproduction and structured theoretical explanations using Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (O’Reilly) as the primary reference.
