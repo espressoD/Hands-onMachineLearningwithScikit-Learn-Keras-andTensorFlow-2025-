@@ -4,15 +4,11 @@ Repository ini berisi catatan, reproduksi kode, dan ringkasan teori untuk memban
 
 ## Ringkasan Bab 1 — The Machine Learning Landscape
 
-Bab 1 memperkenalkan lanskap Machine Learning secara umum. Poin-poin utama:
+Bab 1 membahas gambaran umum Machine Learning, mulai dari definisi dasar dan contoh aplikasinya seperti pengenalan gambar, sistem rekomendasi, hingga prediksi waktu-seri. Bab ini menguraikan klasifikasi tugas ML, yaitu supervised learning (regresi dan klasifikasi), unsupervised learning (clustering dan reduksi dimensi), serta sekilas tentang reinforcement learning. Selain itu, dijelaskan pipeline proyek ML yang meliputi pengumpulan data, preprocessing, pemilihan model, pelatihan, evaluasi, dan deployment. Tantangan seperti overfitting, underfitting, pemilihan metrik evaluasi, dan pentingnya data yang representatif juga dibahas. Bab ini memperkenalkan alat populer seperti Scikit-Learn, Keras, dan TensorFlow, serta menekankan pentingnya pemetaan masalah nyata ke pendekatan ML yang tepat.
 
-- Definisi dasar ML dan contoh aplikasinya (mis. pengenalan gambar, sistem rekomendasi, prediksi waktu-seri).
-- Klasifikasi tugas: supervised learning (regresi & klasifikasi), unsupervised learning (clustering, dimensi reduksi), dan gambaran singkat reinforcement learning.
-- Pipeline umum proyek ML: pengumpulan data, preprocessing, pemilihan model, training, evaluasi, dan deployment.
-- Tantangan praktis seperti overfitting vs underfitting, pemilihan metrik evaluasi yang tepat, dan pentingnya data yang representatif.
-- Alat dan pustaka populer yang sering dipakai: Scikit-Learn untuk workflow klasik, serta Keras/TensorFlow untuk model deep learning.
+## Ringkasan Bab 2 — End-to-End Machine Learning Project
 
-Inti bab ini adalah membantu pembaca memetakan masalah nyata ke tugas ML yang sesuai, memilih metrik dan pendekatan yang tepat, serta menyiapkan eksperimental yang terukur.
+Bab 2 membahas langkah-langkah praktis dalam membangun proyek Machine Learning secara end-to-end. Dimulai dari pengambilan dan eksplorasi data, bab ini menekankan pentingnya memahami data sebelum melakukan pemodelan. Proses selanjutnya meliputi pembersihan data, penanganan nilai hilang, dan transformasi fitur agar siap digunakan oleh algoritma ML. Bab ini juga menguraikan cara membagi data menjadi set pelatihan dan pengujian, memilih serta melatih model, melakukan evaluasi dengan metrik yang sesuai, dan melakukan tuning hyperparameter untuk meningkatkan performa. Di akhir, dijelaskan proses deployment model ke lingkungan produksi. Bab ini memberikan gambaran nyata workflow ML yang sistematis dan terstruktur, serta menekankan pentingnya dokumentasi dan reproducibility dalam setiap tahapan proyek.
 
 ## Struktur singkat repository
 
