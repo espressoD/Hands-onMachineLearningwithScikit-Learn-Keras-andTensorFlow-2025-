@@ -18,15 +18,20 @@ Bab 3 memperdalam topik klasifikasi, mulai dari membangun pengklasifikasi biner 
 
 Bab 4 membahas cara melatih model, terutama model linear, dari pendekatan solusi tertutup seperti Persamaan Normal hingga metode iteratif seperti Gradient Descent (Batch, Stochastic, dan Mini-batch). Bab ini menunjukkan bagaimana memperluas model linear menjadi regresi polinomial untuk menangani pola non-linear, serta cara membaca kurva belajar guna mendiagnosis underfitting dan overfitting. Teknik regularisasi seperti Ridge (L2), Lasso (L1), Elastic Net, dan Early Stopping diperkenalkan untuk mengendalikan kompleksitas model. Di bagian akhir, bab ini merangkum regresi logistik untuk klasifikasi biner dan regresi Softmax untuk multikelas, menekankan pemilihan solver, regularisasi, dan evaluasi yang tepat.
 
+## Ringkasan Bab 5 — Pohon Keputusan & Ensemble Methods
+
+Bab 5 memperkenalkan algoritma berbasis pohon keputusan dan teknik ensemble yang sering digunakan untuk meningkatkan stabilitas dan akurasi model. Dimulai dengan konsep dasar Decision Tree (struktur, pembagian fitur, kriteria pemisahan seperti Gini/entropy), bab ini menunjukkan bagaimana pohon cenderung overfit dan bagaimana pruning atau pembatasan kedalaman dapat membantu. Selanjutnya dibahas ensemble methods: bagging (contoh: Random Forest) untuk mengurangi variansi, serta boosting (mis. AdaBoost, Gradient Boosting Machines) untuk memperbaiki bias dengan menumpuk model lemah. Bab ini juga menyentuh hyperparameter penting (jumlah estimator, kedalaman, learning rate), interpretabilitas model berbasis pohon, dan penggunaan cross-validation serta metrik yang sesuai untuk memilih konfigurasi terbaik.
+
 ## Struktur singkat repository
 
 - `bab1/TugasML_1.ipynb` — salinan/narasi terkait Bab 1 dan latihan.
 - `bab2/TugasML_2.ipynb` — Teori terkait Bab 2 dan latihan.
 - `bab3/TugasML3.ipynb` — teori dan praktik klasifikasi (Bab 3) menggunakan dataset MNIST.
 - `bab4/TugasML4.ipynb` — teori dan praktik melatih model (Bab 4): linear/polinomial, GD, regularisasi, logistic & softmax.
+ - `bab5/TugasML5.ipynb` — teori dan praktik pohon keputusan & ensemble (Bab 5): decision trees, random forest, boosting.
 
 Jika ingin mulai, buka salah satu notebook di atas dan jalankan sel-selnya (pastikan dependensi di `requirements.txt` terpasang).
 
 ---
 
-Diperbarui: 2025-10-18
+Diperbarui: 2025-11-01
