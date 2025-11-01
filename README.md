@@ -22,6 +22,10 @@ Bab 4 membahas cara melatih model, terutama model linear, dari pendekatan solusi
 
 Bab 5 memperkenalkan algoritma berbasis pohon keputusan dan teknik ensemble yang sering digunakan untuk meningkatkan stabilitas dan akurasi model. Dimulai dengan konsep dasar Decision Tree (struktur, pembagian fitur, kriteria pemisahan seperti Gini/entropy), bab ini menunjukkan bagaimana pohon cenderung overfit dan bagaimana pruning atau pembatasan kedalaman dapat membantu. Selanjutnya dibahas ensemble methods: bagging (contoh: Random Forest) untuk mengurangi variansi, serta boosting (mis. AdaBoost, Gradient Boosting Machines) untuk memperbaiki bias dengan menumpuk model lemah. Bab ini juga menyentuh hyperparameter penting (jumlah estimator, kedalaman, learning rate), interpretabilitas model berbasis pohon, dan penggunaan cross-validation serta metrik yang sesuai untuk memilih konfigurasi terbaik.
 
+## Ringkasan Bab 6 — Decision Trees
+
+Bab 6 mengulas Decision Trees secara lebih mendalam: prinsip kerja algoritma CART (pemilihan fitur dan threshold yang meminimalkan impurity), teknik visualisasi pohon untuk interpretabilitas, serta cara membaca aturan keputusan untuk prediksi dan estimasi probabilitas. Bab ini membahas kerentanan pohon terhadap overfitting dan instabilitas (sensitif terhadap rotasi data dan perubahan kecil pada data), serta strategi regularisasi praktis seperti membatasi `max_depth`, `min_samples_split`, `min_samples_leaf`, atau `max_leaf_nodes`. Selain itu dibahas juga penggunaan Decision Tree untuk tugas regresi, contoh visualisasi batas keputusan, dan catatan kapan pohon sebaiknya digunakan sendiri atau digabungkan dalam ensemble (mis. Random Forest, boosting) untuk meningkatkan stabilitas dan performa.
+
 ## Struktur singkat repository
 
 - `bab1/TugasML_1.ipynb` — salinan/narasi terkait Bab 1 dan latihan.
@@ -29,6 +33,7 @@ Bab 5 memperkenalkan algoritma berbasis pohon keputusan dan teknik ensemble yang
 - `bab3/TugasML3.ipynb` — teori dan praktik klasifikasi (Bab 3) menggunakan dataset MNIST.
 - `bab4/TugasML4.ipynb` — teori dan praktik melatih model (Bab 4): linear/polinomial, GD, regularisasi, logistic & softmax.
  - `bab5/TugasML5.ipynb` — teori dan praktik pohon keputusan & ensemble (Bab 5): decision trees, random forest, boosting.
+ - `bab6/TugasML6.ipynb` — teori dan praktik Decision Trees (Bab 6): CART, visualisasi, regresi pohon, regularisasi, instabilitas.
 
 Jika ingin mulai, buka salah satu notebook di atas dan jalankan sel-selnya (pastikan dependensi di `requirements.txt` terpasang).
 
